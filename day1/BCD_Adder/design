@@ -1,1 +1,23 @@
+module BCD_Adder(input [3:0] A, B, input Cin,
+                 output [3:0] Sum, output Cout);
 
+wire [3:0] S1;
+wire C1;
+wire [3:0] S2;
+wire C2;
+
+wire K;
+
+// First RCA
+RCA4 R1 (A, B, Cin, S1, C1);
+
+// Correction condition
+assign K = C1 | (S1[3] & S1[2]) | (S1[3] & S1[1]);
+
+// Second RCA (add 6 if needed)
+RCA4 R2 (S1, (K ? 4'b0110 : 4'b0000), 0, S2, C2);
+
+assign Sum = S2;
+assign Cout = C2;
+
+endmodule
