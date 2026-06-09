@@ -28,11 +28,6 @@ This repository contains the implementation and simulation of fundamental digita
 * Adds decimal digits in BCD format
 * Uses correction logic (+6 when needed)
 
-### 📸 Output Screenshots
-
-(Add your Vivado waveform screenshots here)
-
----
 
 # 🗂️ Day 2 Tasks
 
@@ -60,11 +55,7 @@ This repository contains the implementation and simulation of fundamental digita
   * Shift Right
   * Parallel Load
 
-### 📸 Output Screenshots
 
-(Add your Vivado waveform screenshots here)
-
----
 
 # 🛠️ Tools Used
 
