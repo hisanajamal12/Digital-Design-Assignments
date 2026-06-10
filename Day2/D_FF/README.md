@@ -1,1 +1,2 @@
-<img width="1536" height="771" alt="Day2 D_FF" src="https://github.com/user-attachments/assets/8e969788-4231-43d3-bceb-0365c95fbbeb" />
+
+<img width="860" height="508" alt="image" src="https://github.com/user-attachments/assets/4d7deaa8-f8b3-47a0-80cd-0d839c44e588" />
