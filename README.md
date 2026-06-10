@@ -63,6 +63,16 @@ This repository contains the implementation and simulation of fundamental digita
 * Verilog HDL
 * GitHub
 
+
+# 🗂️ Day 3 Tasks
+1. FIFO with FSM
+Implements data buffering using FIFO
+FSM controls output timing
+Outputs data at controlled intervals
+2. Sequence Detector
+Detects a specific input bit sequence
+Uses Finite State Machine (FSM)
+Outputs signal when sequence is detected
 ---
 
 # ✅ Conclusion
