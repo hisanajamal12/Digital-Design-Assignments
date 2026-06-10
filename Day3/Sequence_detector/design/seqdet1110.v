@@ -1,4 +1,4 @@
-module sequencedetect(input clk, rst, din, output reg detected);
+module seqdet1110(input clk, rst, din, output reg detected);
 
 parameter idle = 2'b00;
 parameter s1   = 2'b01;
@@ -47,5 +47,3 @@ begin
 
     endcase
 end
-
-endmodule
