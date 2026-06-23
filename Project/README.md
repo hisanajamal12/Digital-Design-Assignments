@@ -305,6 +305,4 @@ Simulation results confirm:
 
 ---
 
-## Repository
 
-https://github.com/AksharaKMurali/design-assignment-akshara
