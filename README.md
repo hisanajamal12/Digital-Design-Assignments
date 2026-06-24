@@ -1,83 +1,202 @@
-# Digital Design Assignment
+# Summer Internship 2026 – TKM College of Engineering
 
-## 📌 Overview
+## 📖 Overview
 
-This repository contains the implementation and simulation of fundamental digital design circuits using Verilog HDL. The designs are created and verified using Xilinx Vivado.
+This repository contains the Verilog HDL designs, testbenches, simulation results, and documentation developed during the Summer Internship Program 2026 conducted at TKM College of Engineering (TKMCE).
 
----
-
-# 🗂️ Day 1 Tasks
-
-## 1. Half Adder
-
-* Performs addition of 2 bits
-* Outputs: Sum, Carry
-
-## 2. Full Adder
-
-* Adds 3 bits (A, B, Cin)
-* Outputs: Sum, Carry
-
-## 3. Ripple Carry Adder (4-bit)
-
-* Built using Full Adders
-* Carry propagates through stages
-
-## 4. BCD Adder
-
-* Adds decimal digits in BCD format
-* Uses correction logic (+6 when needed)
-
-
-# 🗂️ Day 2 Tasks
-
-## 1. 4x2 Decoder
-
-* Converts 2-bit input into 4 outputs
-* Only one output active at a time
-
-## 2. SR Flip-Flop
-
-* Stores 1-bit data
-* Inputs: Set (S), Reset (R)
-
-## 3. D Flip-Flop
-
-* Data storage element
-* Output follows input on clock edge
-
-## 4. Universal Shift Register
-
-* Modes:
-
-  * Hold
-  * Shift Left
-  * Shift Right
-  * Parallel Load
-
-
-
-# 🛠️ Tools Used
-
-* Xilinx Vivado
-* Verilog HDL
-* GitHub
-
-
-# 🗂️ Day 3 Tasks
-1. FIFO with FSM
-Implements data buffering using FIFO
-FSM controls output timing
-Outputs data at controlled intervals
-2. Sequence Detector
-Detects a specific input bit sequence
-Uses Finite State Machine (FSM)
-Outputs signal when sequence is detected
----
-
-# ✅ Conclusion
-
-All the digital circuits were successfully designed, simulated, and verified using testbenches. The outputs match expected results.
+The work focuses on Digital Design, RTL Implementation, Functional Verification, Memory Design, and Hardware Interface Development using industry-standard EDA tools and Verilog HDL.
 
 ---
 
+## 👩‍🎓 Student Details
+
+- **Name:** Hisana Jamal
+- **Department:** Electronics and Communication Engineering (Cyber Physical Systems)
+- **College:** Government Engineering College (GEC), Thrissur
+- **Internship Venue:** TKM College of Engineering (TKMCE)
+
+---
+
+## 🏫 Internship Details
+
+- **Program:** Summer Internship 2026
+- **Domain:** VLSI Design & Verification
+- **Duration:** 15 Days
+- **Start Date:** 08 June 2026
+- **Language:** Verilog HDL
+- **EDA Tool:** Vivado Design Suite
+
+---
+
+## 📁 Repository Structure
+
+```text
+TKM_VLSI_Internship_2026
+│
+├── README.md
+│
+├── Day1
+│   ├── Ripple_Carry_Adder
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   └── BCD_Adder
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+├── Day2
+│   ├── D_FF
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   ├── SR_FF
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   ├── Decoder4_2
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   └── Universal_Shift_Register
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+├── Day3
+│   ├── FIFO_FSM
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   └── Sequence_Detector
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+├── Day4
+│   └── Block_Memory_Generator
+│       ├── Design
+│       ├── Simulation
+│       └── README.md
+│
+├── Day5
+│   ├── BCD_Interface
+│   │   ├── Design
+│   │   ├── Testbench
+│   │   └── README.md
+│   │
+│   └── FIFO_Interface
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+├── Day6
+│   └── FIFO_Transaction
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+├── Day7
+│   └── APB_Protocol
+│       ├── Design
+│       ├── Testbench
+│       └── README.md
+│
+└── Project
+    ├── Design
+    ├── Testbench
+    ├── Simulation
+    └── README.md
+```
+
+---
+
+## 🧪 Experiments Completed
+
+### 📅 Day 1
+- Ripple Carry Adder
+- BCD Adder
+
+### 📅 Day 2
+- D Flip-Flop
+- SR Flip-Flop
+- 4:2 Decoder
+- Universal Shift Register
+
+### 📅 Day 3
+- FIFO FSM
+- Sequence Detector
+
+### 📅 Day 4
+- Block Memory Generator
+
+### 📅 Day 5
+- BCD Interface
+- FIFO Interface
+
+### 📅 Day 6
+- FIFO Transaction
+
+### 📅 Day 7
+- APB Protocol
+
+### 🚀 Final Project
+- RTL Design and Verification Project
+
+---
+
+## 🛠️ Technologies Used
+
+- Verilog HDL
+- Vivado Design Suite
+- RTL Design Methodology
+- Functional Verification
+- FSM Design
+- Memory Design
+- Git & GitHub
+
+---
+
+## 🎯 Key Learning Outcomes
+
+✔️ RTL Design using Verilog HDL
+
+✔️ Testbench Development and Functional Verification
+
+✔️ Simulation and Waveform Analysis
+
+✔️ FSM-Based Digital Design
+
+✔️ Memory and Interface Design
+
+✔️ Debugging and Verification Workflows
+
+✔️ Technical Documentation and Version Control
+
+✔️ Understanding of Industry-Oriented VLSI Design Flow
+
+---
+
+## 🌟 Highlights
+
+- Hands-on implementation of digital design concepts
+- Practical exposure to RTL Design and Verification
+- Development of reusable Verilog modules and testbenches
+- Experience with memory and interface architectures
+- Structured learning approach from basic to advanced concepts
+- Exposure to industry practices through technical sessions and project-based learning
+
+---
+
+## 📬 Contact
+
+Feel free to connect and collaborate through GitHub.
+
+### Summer Internship Program 2026
+**Department of Electronics & Communication Engineering**  
+**TKM College of Engineering, Kollam**
